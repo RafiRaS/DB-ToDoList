@@ -1,5 +1,5 @@
 <?php
-include "function.php";
+include "connect.php";
 $hasil = mysqli_query($mysqli, "SELECT * FROM tabletodo");
 ?>
 

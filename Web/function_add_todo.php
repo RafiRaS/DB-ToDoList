@@ -1,5 +1,5 @@
 <?php
-include "function.php";
+include "connect.php";
 
 if (isset($_POST['pesan'], $_POST['tanggal'], $_POST['keterangan'])) {
     $pesan = $_POST['pesan'];

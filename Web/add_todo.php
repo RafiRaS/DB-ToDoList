@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Tambah To-Do</h1>
-    <form action="process_add_todo.php" method="post">
+    <form action="function_add_todo.php" method="post">
         <label for="pesan">Pesan:</label>
         <input type="text" name="pesan" id="pesan" required>
         
